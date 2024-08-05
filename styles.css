@@ -1,0 +1,67 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Title Styles */
+h1 {
+    font-family: 'Georgia', serif;
+    color: #333333;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Blog Entries List */
+ul.blog-entries {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.blog-entries li {
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px; /* Rounded corners */
+    color: #ffffff;
+}
+
+/* Specific Entry Styles */
+ul.blog-entries li:nth-child(1) {
+    background-color: #007BFF; /* Blue background */
+}
+
+ul.blog-entries li:nth-child(2) {
+    background-color: #FF0000; /* Red background */
+}
+
+ul.blog-entries li:nth-child(3) {
+    background-color: #28A745; /* Green background */
+}
+
+/* Other Styles */
+p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #555555;
+}
+
+/* Rounded Border Example */
+.rounded-border {
+    border: 2px solid #333333;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Additional Styles */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
